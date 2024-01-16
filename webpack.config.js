@@ -26,12 +26,11 @@ module.exports = {
                                 './src/index.html',
                                 {from: './src/css', to: 'css'},
                                 {from: './src/img', to: 'img'},
-                                {from: './node_modules/startbootstrap-freelancer/dist/js/scripts.js', to: 'vendor/startbootstrap-freelancer/scripts.js'},
-                                {from: './node_modules/startbootstrap-freelancer/dist/css/styles.css', to: 'css/freelancer.css'}
+                                {from: './src/jpg', to: 'jpg'}
              ]
             }
-        ),
+        )
         
-        new webpack.HotModuleReplacementPlugin()
+        //new webpack.HotModuleReplacementPlugin()
     ]
 };
